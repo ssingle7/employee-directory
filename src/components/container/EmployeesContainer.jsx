@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SearchBar from "../SearchBar";
+import SearchBar from "../Search";
 import EmployeeTable from "../EmployeeTable";
 import API from "../../utils/API";
 
