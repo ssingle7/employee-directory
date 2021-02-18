@@ -19,6 +19,15 @@ class EmployeesContainer extends Component {
 }
 
 //When this component mounts, load random users as employees from http://randomuser.me/
-
+// componentDidMount() {
+//     API.getEmployees()
+//       .then((res) =>
+//         this.setState({
+//           employees: res.data.results,
+//           filteredEmployees: res.data.results,
+//         })
+//       )
+//       .catch((err) => console.log(err));
+//   }
 
 export default EmployeesContainer;
