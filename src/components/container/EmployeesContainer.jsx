@@ -18,4 +18,7 @@ class EmployeesContainer extends Component {
     };
 }
 
+//When this component mounts, load random users as employees from http://randomuser.me/
+
+
 export default EmployeesContainer;
